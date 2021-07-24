@@ -167,3 +167,31 @@ $bg: #d2b422;
         }
     }
 }
+
+// google-result
+.google-result {
+    .search-results {
+        .card {
+            border: 1px solid #e8e8e8;
+            .card-body {
+                padding: 10px;
+                .card-title {
+                    font-size: 18px !important;
+                }
+                .title {
+                    padding: 0 !important;
+                }
+                .card-text {
+                    margin: 0 !important;
+                    padding: 0 !important;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                .brand-site {
+                    color: #bbafaf;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

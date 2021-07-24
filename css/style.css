@@ -129,4 +129,21 @@
       .search-results .card-body .footer i {
         margin-right: 5px; }
 
+.google-result .search-results .card {
+  border: 1px solid #e8e8e8; }
+  .google-result .search-results .card .card-body {
+    padding: 10px; }
+    .google-result .search-results .card .card-body .card-title {
+      font-size: 18px !important; }
+    .google-result .search-results .card .card-body .title {
+      padding: 0 !important; }
+    .google-result .search-results .card .card-body .card-text {
+      margin: 0 !important;
+      padding: 0 !important;
+      font-size: 15px;
+      font-weight: 600; }
+    .google-result .search-results .card .card-body .brand-site {
+      color: #bbafaf;
+      font-size: 12px; }
+
 /*# sourceMappingURL=style.css.map */
