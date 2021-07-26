@@ -8,6 +8,36 @@ $bg: #d2b422;
     background-color: $bg;
 }
 
+@font-face {
+    font-family: "cairo";
+    src: url(../fonts/Cairo-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "cairo";
+    src: url(../fonts/Cairo-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "cairo";
+    src: url(../fonts/Cairo-SemiBold.ttf);
+    font-weight: 600;
+}
+
+body {
+    font-family: "cairo" !important;
+}
+
+.card-text {
+    text-align: right;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
 
 /* serch   */
 
@@ -80,15 +110,14 @@ $bg: #d2b422;
     height: fit-content;
     box-shadow: 0 0 5px #ccc;
     .container-fluid {
+        flex-direction: revert;
         height: fit-content;
-        flex-direction: row !important;
         padding-top: 15px;
         padding-bottom: 15px;
         display: flex;
         width: 100%;
         justify-content: space-between;
         box-shadow: none;
-        flex-direction: row-reverse;
         align-items: center;
         @media(max-width: 575px) {
             flex-wrap: wrap;
@@ -202,7 +231,14 @@ $bg: #d2b422;
     a {
         color: #000
     }
-    i {
-        margin-right: 5px;
-    }
+    i {}
+}
+
+.search .input-group .input-group-append a span {
+    border-radius: 20px 0px 0px 20px !important;
+    border: none;
+}
+
+.search .input-group input {
+    border-radius: 0px 20px 20px 0px !important;
 }
