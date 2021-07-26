@@ -15,7 +15,16 @@
   src: url(../fonts/Cairo-SemiBold.ttf);
   font-weight: 600; }
 body {
-  font-family: "cairo" !important; }
+  font-family: "cairo" !important;
+  /* width */
+  /* Track */
+  /* Handle */ }
+  body::-webkit-scrollbar {
+    width: 5px; }
+  body::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+  body::-webkit-scrollbar-thumb {
+    background: #a50d0d; }
 
 .card-text {
   text-align: right; }
