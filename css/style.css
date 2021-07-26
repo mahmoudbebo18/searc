@@ -2,6 +2,17 @@
 .main-body {
   background-color: #d2b422; }
 
+body {
+  /* width */
+  /* Track */
+  /* Handle */ }
+  body ::-webkit-scrollbar {
+    width: 5px; }
+  body ::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+  body ::-webkit-scrollbar-thumb {
+    background: #a50d0d; }
+
 /* serch   */
 .search {
   height: 100vh;

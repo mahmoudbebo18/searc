@@ -19,11 +19,11 @@ body {
   /* width */
   /* Track */
   /* Handle */ }
-  body::-webkit-scrollbar {
+  body ::-webkit-scrollbar {
     width: 5px; }
-  body::-webkit-scrollbar-track {
+  body ::-webkit-scrollbar-track {
     background: #f1f1f1; }
-  body::-webkit-scrollbar-thumb {
+  body ::-webkit-scrollbar-thumb {
     background: #a50d0d; }
 
 .card-text {
