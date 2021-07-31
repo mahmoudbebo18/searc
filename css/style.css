@@ -4,12 +4,6 @@
     background-color: #fff;
 }
 
-body {
-    /* width */
-    /* Track */
-    /* Handle */
-}
-
 body ::-webkit-scrollbar {
     width: 5px;
 }
