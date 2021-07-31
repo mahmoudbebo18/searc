@@ -34,11 +34,29 @@ body ::-webkit-scrollbar-thumb {
     background-color: #fff;
 }
 
+@media(max-width:767px) {
+    .search .container {
+        width: 80%;
+    }
+}
+
+@media(max-width:575px) {
+    .search .container {
+        width: 100%;
+    }
+}
+
 .search .container h1 {
     font-family: "Tourney", cursive;
     font-size: 64px;
     margin-bottom: 64px;
     color: #a0a0a0;
+}
+
+@media(max-width:575px) {
+    .search .container h1 {
+        font-size: 45px;
+    }
 }
 
 .search .container h1::first-letter {
